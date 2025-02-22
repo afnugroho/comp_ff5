@@ -1,0 +1,49 @@
+html{
+    overflow-y: auto;
+}
+body{
+    background-color: rgb(48, 48, 48);
+}
+.table{
+    border: transparent;
+    min-height: 6rem;
+}
+.header{
+    width: 100%;
+    margin-bottom: 1vh;
+    background-color: rgb(28, 28, 107);
+    color: rgb(251, 255, 254);
+}
+.header h1{
+    text-align: center;
+    letter-spacing: .3rem;
+    font-size: 2.5rem;
+}
+.header h3{
+    font-size: 2.5rem;
+    color: rgb(255, 215, 85);
+}
+img{
+    border-radius: .35rem;
+    vertical-align: middle;
+    background-color: rgb(251, 255, 254);
+    padding: .8rem;
+}
+.gambar{
+    width: 9rem;
+}
+footer{
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 4rem;
+    background-color: rgb(165, 0, 0);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 0.5vh rgba(0,0,0,.3);
+}
+.shdw{
+    box-shadow: 0 0 0.25vh rgba(0,0,0,.3);
+}
